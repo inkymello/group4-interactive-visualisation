@@ -9,9 +9,9 @@ CIS4014-Group4-Interactive-Visualisation/
 |   `-- processed_data.csv
 |
 |-- charts/
-|   |-- member1/
-|   |-- member2/
-|   `-- member3/
+|   |-- Ilamperuma/
+|   |-- Samarakoon/
+|   `-- De Silva/
 |
 |-- prototypes/
 |   |-- chart1_prototype.png
