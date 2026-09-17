@@ -1,6 +1,3 @@
-# Project File Structure
-
-```text
 CIS4014-Group4-Interactive-Visualisation/
 |
 |-- data/
@@ -19,18 +16,32 @@ CIS4014-Group4-Interactive-Visualisation/
 |   `-- chart3_prototype.png
 |
 |-- documentation/
+|   |
 |   |-- scrum/
 |   |   |-- product_backlog.xlsx
+|   |   |
 |   |   |-- sprint1.xlsx
+|   |   |-- sprint1_retrospective.docx
+|   |   |-- sprint1_burndown.xlsx
+|   |   |
 |   |   |-- sprint2.xlsx
+|   |   |-- sprint2_retrospective.docx
+|   |   |-- sprint2_burndown.xlsx
+|   |   |
 |   |   |-- sprint3.xlsx
-|   |   `-- sprint4.xlsx
+|   |   |-- sprint3_retrospective.docx
+|   |   |-- sprint3_burndown.xlsx
+|   |   |
+|   |   |-- sprint4.xlsx
+|   |   |-- sprint4_retrospective.docx
+|   |   `-- sprint4_burndown.xlsx
 |   |
 |   |-- meetings/
 |   |   |-- meeting1.docx
 |   |   |-- meeting2.docx
 |   |   |-- meeting3.docx
-|   |   `-- meeting4.docx
+|   |   |-- meeting4.docx
+|   |   `-- meeting5.docx
 |   |
 |   `-- design/
 |       |-- requirements.docx
@@ -43,7 +54,3 @@ CIS4014-Group4-Interactive-Visualisation/
 |
 |-- README.md
 `-- README_STRUCTURE.md
-```
-
-The listed data, prototype, Scrum, meeting, and design files are placeholders
-for the project assets that will be added by the group.
