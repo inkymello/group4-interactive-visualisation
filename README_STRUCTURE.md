@@ -40,9 +40,7 @@ CIS4014-Group4-Interactive-Visualisation/
 |   |   |-- meeting1.docx
 |   |   |-- meeting2.docx
 |   |   |-- meeting3.docx
-|   |   |-- meeting4.docx
-|   |   `-- meeting5.docx
-|   |
+|   |   
 |   `-- design/
 |       |-- requirements.docx
 |       `-- chart_rationale.docx
