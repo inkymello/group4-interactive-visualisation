@@ -1,3 +1,6 @@
+# Project File Structure
+
+```text
 CIS4014-Group4-Interactive-Visualisation/
 |
 |-- data/
@@ -40,6 +43,8 @@ CIS4014-Group4-Interactive-Visualisation/
 |   |   |-- meeting1.docx
 |   |   |-- meeting2.docx
 |   |   |-- meeting3.docx
+|   |   |-- meeting4.docx
+|   |   `-- meeting5.docx
 |   |   
 |   `-- design/
 |       |-- requirements.docx
@@ -52,3 +57,7 @@ CIS4014-Group4-Interactive-Visualisation/
 |
 |-- README.md
 `-- README_STRUCTURE.md
+```
+
+The listed data, prototype, Scrum, meeting, and design files are placeholders
+for the project assets that will be added by the group.
