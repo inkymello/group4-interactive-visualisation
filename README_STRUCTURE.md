@@ -14,9 +14,9 @@ CIS4014-Group4-Interactive-Visualisation/
 |   `-- De Silva/
 |
 |-- prototypes/
-|   |-- chart1_prototype.png
-|   |-- chart2_prototype.png
-|   `-- chart3_prototype.png
+|   |-- De Silva/
+|   |-- Ilamperuma/
+|   `-- Samarakoon/
 |
 |-- documentation/
 |   |
