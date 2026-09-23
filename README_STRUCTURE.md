@@ -1,16 +1,18 @@
 # Project File Structure
 
+The structure below reflects the files currently committed to the repository.
+Directories containing only `.gitkeep` are shown so their intended locations
+remain clear.
+
 ```text
-CIS4014-Group4-Interactive-Visualisation/
+group4-interactive-visualisation/
 |
 |-- data/
-|   |-- raw_data.csv
-|   |-- cleaned_data.csv
-|   `-- processed_data.csv
+|   |-- Coffee Shop Sales-Raw Data.xlsx
+|   |-- Coffee_Shop Sales -Cleaned and Processed Data.xlsx
+|   `-- .gitkeep
 |
 |-- charts/
-|   |-- Ilamperuma/
-|   |-- Samarakoon/
 |   `-- De Silva/
 |
 |-- prototypes/
@@ -19,45 +21,38 @@ CIS4014-Group4-Interactive-Visualisation/
 |   `-- Samarakoon/
 |
 |-- documentation/
-|   |
-|   |-- scrum/
-|   |   |-- product_backlog.xlsx
-|   |   |
-|   |   |-- sprint1.xlsx
-|   |   |-- sprint1_retrospective.docx
-|   |   |-- sprint1_burndown.xlsx
-|   |   |
-|   |   |-- sprint2.xlsx
-|   |   |-- sprint2_retrospective.docx
-|   |   |-- sprint2_burndown.xlsx
-|   |   |
-|   |   |-- sprint3.xlsx
-|   |   |-- sprint3_retrospective.docx
-|   |   |-- sprint3_burndown.xlsx
-|   |   |
-|   |   |-- sprint4.xlsx
-|   |   |-- sprint4_retrospective.docx
-|   |   `-- sprint4_burndown.xlsx
-|   |
+|   |-- data cleaning/
+|   |   `-- Data_Cleaning_Document.docx
+|   |-- design/
+|   |   |-- Design_Rationale.docx
+|   |   `-- Design_Requirements_Document.docx
 |   |-- meetings/
-|   |   |-- meeting1.docx
-|   |   |-- meeting2.docx
-|   |   |-- meeting3.docx
-|   |   |-- meeting4.docx
-|   |   `-- meeting5.docx
-|   |   
-|   `-- design/
-|       |-- requirements.docx
-|       `-- chart_rationale.docx
+|   |   `-- Meeting_1_Minutes.docx
+|   |-- scrum/
+|   |   |-- Product_Backlog.xlsx
+|   |   |-- Sprint_1_Backlog.xlsx
+|   |   |-- Sprint_1_Burndown_Chart.xlsx
+|   |   `-- Sprint_1_Retrospective.docx
+|   `-- testing/
+|       `-- Testing_Bug_Fixing _Documentation.docx
 |
 |-- web/
 |   |-- index.html
 |   |-- css/
+|   |   `-- .gitkeep
 |   `-- js/
+|       `-- .gitkeep
 |
 |-- README.md
 `-- README_STRUCTURE.md
 ```
 
-The listed data, prototype, Scrum, meeting, and design files are placeholders
-for the project assets that will be added by the group.
+## Directory Responsibilities
+
+- `data/` stores the original and prepared datasets used for analysis.
+- `charts/` stores chart implementations or exports produced by each group
+	member.
+- `prototypes/` stores early design and chart explorations.
+- `documentation/` stores data-cleaning, design, meeting, Scrum, and testing
+	records.
+- `web/` is the deployment surface for the browser-based visualisation.
