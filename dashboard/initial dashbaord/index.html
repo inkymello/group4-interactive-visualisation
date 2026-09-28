@@ -11,6 +11,13 @@
 </head>
 <body>
 
+<!--
+  S3-12 · Initial dashboard (Sprint 3, Day 5)
+  All three D3.js charts placed together on one page for the first time.
+  Each chart is self-contained: it has its own tooltip and its own interaction,
+  and none of them talks to the others yet. The shared KPI band, filter bar,
+  Reset button and cross-chart linking are Sprint 4 work (S4-04 to S4-08).
+-->
 
 <header class="masthead">
   <div class="wrap">
@@ -18,32 +25,11 @@
     <h1>The morning rush pays for the day.</h1>
     <p class="standfirst">Sales across the Astoria, Hell's Kitchen and Lower Manhattan shops, cut three ways:
       when people buy, where the money lands, and how tightly daily revenue tracks the number of cups sold.
-      Every filter below moves all three views at once.</p>
+      Each chart below has its own tooltip and its own interaction.</p>
   </div>
 </header>
 
-<div class="bar">
-  <div class="wrap">
-    <div class="field"><label for="f-store">Store</label><select id="f-store"></select></div>
-    <div class="field"><label for="f-cat">Category</label><select id="f-cat"></select></div>
-    <div class="field"><label for="f-month">Month</label><select id="f-month"></select></div>
-    <button class="ghost" id="reset" type="button">Clear</button>
-    <div class="spacer"></div>
-    <nav class="jump">
-      <a href="#when">When</a><a href="#where">Where</a><a href="#how">How much</a>
-    </nav>
-  </div>
-</div>
-
-<div class="kpis" id="kpis">
-  <div class="kpi"><div class="k">Revenue</div><div class="v" id="k-rev">—</div><div class="s" id="k-rev-s">&nbsp;</div></div>
-  <div class="kpi"><div class="k">Transactions</div><div class="v" id="k-tx">—</div><div class="s" id="k-tx-s">&nbsp;</div></div>
-  <div class="kpi"><div class="k">Units sold</div><div class="v" id="k-qty">—</div><div class="s" id="k-qty-s">&nbsp;</div></div>
-  <div class="kpi"><div class="k">Per transaction</div><div class="v" id="k-avg">—</div><div class="s" id="k-avg-s">&nbsp;</div></div>
-  <div class="kpi"><div class="k">Busiest hour</div><div class="v" id="k-peak">—</div><div class="s" id="k-peak-s">&nbsp;</div></div>
-</div>
-
-<!-- ─────────────── WHEN ─────────────── -->
+<!-- ─────────────── CHART 1 · WHEN ─────────────── -->
 <section id="when"><div class="wrap">
   <div class="shead">
     <h2>When the queue forms</h2>
@@ -54,12 +40,12 @@
   <p class="note" id="heat-note">&nbsp;</p>
 </div></section>
 
-<!-- ─────────────── WHERE ─────────────── -->
+<!-- ─────────────── CHART 2 · WHERE ─────────────── -->
 <section id="where"><div class="wrap">
   <div class="shead">
     <h2>Where the money lands</h2>
     <p>Circle area is proportional to revenue. Click a store on the map or in the ranking to
-       filter the whole page down to it, and click again to release.</p>
+       isolate it in this chart, and click again to release.</p>
   </div>
   <div class="mapgrid">
     <div class="mapbox"><svg id="map" role="img" aria-label="Map of the three shop locations in New York City, sized by revenue"></svg></div>
@@ -71,7 +57,7 @@
   </div>
 </div></section>
 
-<!-- ─────────────── HOW MUCH ─────────────── -->
+<!-- ─────────────── CHART 3 · HOW MUCH ─────────────── -->
 <section id="how"><div class="wrap">
   <div class="shead">
     <h2>How much a cup is worth</h2>
@@ -103,7 +89,6 @@
 </div></footer>
 
 <div class="tip" id="tip" role="status" aria-live="polite"></div>
-
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 <script src="js/script.js"></script>
