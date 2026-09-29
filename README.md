@@ -18,6 +18,7 @@ development records, chart work, prototypes, and the web application.
 | `documentation/meetings/` | Project meeting minutes. |
 | `documentation/scrum/` | Product backlog, sprint records, burndown charts, and retrospectives. |
 | `documentation/testing/` | Testing and bug-fixing documentation. |
+| `dashboard/initial dashbaord/` | Earlier dashboard implementation retained for project history. |
 | `web/` | Browser-based interactive visualisation, including `index.html`, CSS, and JavaScript assets. |
 
 ## Running the Web App
@@ -37,6 +38,8 @@ The published version is available at [The Roast Report](https://inkymello.githu
 	limitations.
 - [Final Team Review](documentation/meetings/Final_Team_Review.docx)
 - [Final Scrum Review](documentation/scrum/Final_Scrum_Review.docx)
+- [Repository Structure](README_STRUCTURE.md) - current file and directory inventory.
+- [Web Application README](web/README.md) - dashboard features, interactions, and dataset summary.
 
 ## Project Status
 
