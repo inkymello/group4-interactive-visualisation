@@ -26,8 +26,20 @@ The current web app is a static site. Open [`web/index.html`](web/index.html)
 directly in a browser, or serve the repository with any local static file
 server while development continues.
 
+The published version is available at [The Roast Report](https://inkymello.github.io/The-Roast-Report---The-Morning-Rush/).
+
+## Project Documentation
+
+- [GitHub Documentation](documentation/GITHUB_DOCUMENTATION.md) - repository
+	usage, local setup, GitHub Pages deployment, and contribution workflow.
+- [Final Documentation](documentation/FINAL_DOCUMENTATION.md) - consolidated
+	project summary, methodology, visualisation features, testing, and known
+	limitations.
+- [Final Team Review](documentation/meetings/Final_Team_Review.docx)
+- [Final Scrum Review](documentation/scrum/Final_Scrum_Review.docx)
+
 ## Project Status
 
-The repository structure is in place and project documentation and datasets
-are being added incrementally. Directories containing only `.gitkeep` are
+The final interactive visualisation and supporting project documentation are
+available in the repository. Directories containing only `.gitkeep` are
 intentionally retained for work that has not yet been committed.
