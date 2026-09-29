@@ -1,34 +1,38 @@
 # Project File Structure
 
-The structure below reflects the current committed project files. Directories
-containing only `.gitkeep` are shown so their intended locations remain clear.
+The structure below reflects the current project files.
 
 ```text
 group4-interactive-visualisation/
 |
 |-- data/
 |   |-- Coffee Shop Sales-Raw Data.xlsx
-|   |-- Coffee_Shop Sales -Cleaned and Processed Data.xlsx
-|   `-- .gitkeep
+|   `-- Coffee_Shop Sales -Cleaned and Processed Data.xlsx
 |-- charts/
-|   |-- De Silva/.gitkeep
-|   |-- Ilamperuma/.gitkeep
-|   `-- Samarakoon/.gitkeep
+|   |-- De Silva/
+|   |   |-- index.html
+|   |   |-- script.js
+|   |   `-- style.css
+|   |-- Ilamperuma/
+|   |   |-- index.html
+|   |   |-- script.js
+|   |   `-- style.css
+|   `-- Samarakoon/
+|       |-- index.html
+|       |-- script.js
+|       `-- style.css
 |-- dashboard/
-|   `-- initial dashbaord/
+|   `-- initial dashboard/
 |       |-- index.html
 |       |-- css/style.css
 |       `-- js/script.js
 |-- prototypes/
 |   |-- De Silva/
-|   |   |-- 3_Scatter_HowMuchACupIsWorth.xlsx
-|   |   `-- .gitkeep
+|   |   `-- 3_Scatter_HowMuchACupIsWorth.xlsx
 |   |-- Ilamperuma/
-|   |   |-- 2_StoreMap_WhereTheMoneyLands.xlsx
-|   |   `-- .gitkeep
+|   |   `-- 2_StoreMap_WhereTheMoneyLands.xlsx
 |   `-- Samarakoon/
-|       |-- 1_Heatmap_WhenTheQueueForms.xlsx
-|       `-- .gitkeep
+|       `-- 1_Heatmap_WhenTheQueueForms.xlsx
 |-- documentation/
 |   |-- data cleaning/Data_Cleaning_Document.docx
 |   |-- design/
@@ -40,12 +44,28 @@ group4-interactive-visualisation/
 |   |-- GITHUB_DOCUMENTATION.md
 |   |-- meetings/
 |   |   |-- Final_Team_Review.docx
-|   |   `-- Sprint_1 to Sprint_5 meeting minutes
+|   |   |-- Sprint_1_Meeting_Minutes.docx
+|   |   |-- Sprint_2_Meeting_Minutes.docx
+|   |   |-- Sprint_3_Meeting_Minutes.docx
+|   |   |-- Sprint_4_Meeting_Minutes.docx
+|   |   `-- Sprint_5_Meeting_Minutes.docx
 |   |-- scrum/
 |   |   |-- Product_Backlog.xlsx
-|   |   |-- Sprint_1 to Sprint_5 backlog files
-|   |   |-- Sprint_1 to Sprint_5 burndown charts
-|   |   |-- Sprint_1 to Sprint_5 retrospectives
+|   |   |-- Sprint_1_Backlog.xlsx
+|   |   |-- Sprint_1_Burndown_Chart.xlsx
+|   |   |-- Sprint_1_Retrospective.docx
+|   |   |-- Sprint_2_Backlog.xlsx
+|   |   |-- Sprint_2_Burndown_Chart.xlsx
+|   |   |-- Sprint_2_Retrospective.docx
+|   |   |-- Sprint_3_Backlog.xlsx
+|   |   |-- Sprint_3_Burndown_Chart.xlsx
+|   |   |-- Sprint_3_Retrospective.docx
+|   |   |-- Sprint_4_Backlog.xlsx
+|   |   |-- Sprint_4_Burndown_Chart.xlsx
+|   |   |-- Sprint_4_Retrospective.docx
+|   |   |-- Sprint_5_Backlog.xlsx
+|   |   |-- Sprint_5_Burndown_Chart.xlsx
+|   |   |-- Sprint_5_Retrospective.docx
 |   |   `-- Final_Scrum_Review.docx
 |   `-- testing/Testing_Bug_Fixing _Documentation.docx
 |-- web/
