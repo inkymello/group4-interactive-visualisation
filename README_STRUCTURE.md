@@ -51,21 +51,9 @@ group4-interactive-visualisation/
 |   |   `-- Sprint_5_Meeting_Minutes.docx
 |   |-- scrum/
 |   |   |-- Product_Backlog.xlsx
-|   |   |-- Sprint_1_Backlog.xlsx
-|   |   |-- Sprint_1_Burndown_Chart.xlsx
-|   |   |-- Sprint_1_Retrospective.docx
-|   |   |-- Sprint_2_Backlog.xlsx
-|   |   |-- Sprint_2_Burndown_Chart.xlsx
-|   |   |-- Sprint_2_Retrospective.docx
-|   |   |-- Sprint_3_Backlog.xlsx
-|   |   |-- Sprint_3_Burndown_Chart.xlsx
-|   |   |-- Sprint_3_Retrospective.docx
-|   |   |-- Sprint_4_Backlog.xlsx
-|   |   |-- Sprint_4_Burndown_Chart.xlsx
-|   |   |-- Sprint_4_Retrospective.docx
-|   |   |-- Sprint_5_Backlog.xlsx
-|   |   |-- Sprint_5_Burndown_Chart.xlsx
-|   |   |-- Sprint_5_Retrospective.docx
+|   |   |-- Sprint_1 to Sprint_5 backlog files
+|   |   |-- Sprint_1 to Sprint_5 burndown charts
+|   |   |-- Sprint_1 to Sprint_5 retrospectives
 |   |   `-- Final_Scrum_Review.docx
 |   `-- testing/Testing_Bug_Fixing _Documentation.docx
 |-- web/
