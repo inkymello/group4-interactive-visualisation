@@ -5,7 +5,7 @@ An interactive D3.js visualisation of coffee shop sales across Astoria, Hell's
 Kitchen, and Lower Manhattan from January to June 2023. The project was
 developed for the CIS4014 Interactive Visualisation coursework by Group 4.
 
-## Live Dashboard
+## Live Dashboar
 
 [Open The Roast Report](https://inkymello.github.io/The-Roast-Report---The-Morning-Rush/)
 
