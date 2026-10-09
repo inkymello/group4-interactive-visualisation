@@ -1,4 +1,4 @@
-documentation/design/    Requirements and chart rationale
+
 # The Roast Report: The Morning Rush
 
 An interactive D3.js visualisation of coffee shop sales across Astoria, Hell's
