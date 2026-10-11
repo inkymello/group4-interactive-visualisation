@@ -97,10 +97,16 @@ connection is required for D3.js v7 and the Google Fonts loaded from CDNs.
 
 ### Option 2: Use a local static server
 
-From the repository root, run:
+From the repository root, run either command:
 
 ```text
 python -m http.server 8000
+```
+
+On Windows, you can use the Python launcher instead:
+
+```text
+py -m http.server 8000
 ```
 
 Then open <http://localhost:8000/web/>.
